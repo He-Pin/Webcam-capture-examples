@@ -11,6 +11,9 @@ import us.sosia.video.stream.agent.ui.SingleVideoDisplayWindow;
 import us.sosia.video.stream.handler.StreamFrameListener;
 
 public class StreamClient {
+	/**
+	 * @author kerr
+	 * */
 	private final static Dimension dimension = new Dimension(320,240);
 	private final static SingleVideoDisplayWindow displayWindow = new SingleVideoDisplayWindow("Stream example",dimension);
 	protected final static Logger logger = LoggerFactory.getLogger(StreamClient.class);

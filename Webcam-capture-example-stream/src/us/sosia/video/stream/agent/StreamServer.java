@@ -8,7 +8,7 @@ import com.github.sarxos.webcam.Webcam;
 public class StreamServer {
 
 	/**
-	 * @param args
+	 * @author kerr
 	 */
 	public static void main(String[] args) {
 		Webcam.setAutoOpenMode(true);
